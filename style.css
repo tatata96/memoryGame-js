@@ -36,3 +36,60 @@ html {
   font-size: 1.5em;
   margin-left: 20%;
 }
+@media only screen and (max-width: 700px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 5px;
+    margin: 10px;
+    justify-content: center;
+  }
+  .title {
+    font-size: 100%;
+  }
+  .info {
+    font-size: 100%;
+  }
+
+  img {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 5px;
+    margin: 10px;
+    justify-content: center;
+  }
+  .title {
+    font-size: 100%;
+  }
+  .info {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 5px;
+    margin: 10px;
+    justify-content: center;
+  }
+  .title {
+    font-size: 100%;
+  }
+  .info {
+    font-size: 100%;
+  }
+
+  img {
+    height: 40px !important;
+    width: 40px !important;
+  }
+}
