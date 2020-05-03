@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  grid-gap: 10px;
+  margin: 50px;
+  justify-content: center;
+}
+
+body {
+  background: linear-gradient(
+    to left,
+    rgba(7, 27, 82, 1) 0%,
+    rgba(0, 128, 128, 1) 100%
+  );
+}
+
+html {
+  min-height: 100vh;
+}
+
+.title {
+  text-align: center;
+  font-family: "Monoton", cursive;
+  color: whitesmoke;
+  padding: 5px;
+  font-size: 2em;
+}
+
+.info {
+  font-family: "Monoton", cursive;
+
+  color: rgb(159, 172, 238);
+  font-size: 1.5em;
+  margin-left: 20%;
+}
