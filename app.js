@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             cards[card1].setAttribute('src', 'images/empty.png')
             cards[card2].setAttribute('src', 'images/empty.png')
-            alert("YOU FOUND MATCHING CARDS!");
+            //alert("YOU FOUND MATCHING CARDS!");
             cardsWon.push(chosenCardsIDArray)
 
             pairs = pairs - 1
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         else {
 
-            alert("TRY AGAIN :(");
+            //alert("TRY AGAIN :(");
 
             cards[card1].setAttribute('src', 'images/board.png')
             cards[card2].setAttribute('src', 'images/board.png')
